@@ -23,3 +23,6 @@ def sum_series(n, optOne=0, optTwo=1):
 	for i in range(0, n):
 		optOne, optTwo = optTwo, optOne+optTwo
 	return optOne
+
+if __name__ == '__main__':
+	help(fibonacci)
